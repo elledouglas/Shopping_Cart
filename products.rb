@@ -1,7 +1,7 @@
 class Products
 attr_accessor :name, :base_price, :tax
 
-def initialize
+def initialize(name, base_price)
 
 @name = name
 @base_price = base_price
